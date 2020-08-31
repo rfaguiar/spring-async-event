@@ -1,4 +1,4 @@
-package com.asyncevent.asyncevent;
+package com.asyncevent;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
