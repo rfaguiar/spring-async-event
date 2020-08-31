@@ -1,4 +1,7 @@
-GET http://localhost:8080/hello/event
+### Hello Async
+GET http://localhost:8080/hello/async
 Accept: application/json
 
-###
+### Hello EventListenert Async
+GET http://localhost:8080/hello/event
+Accept: application/json

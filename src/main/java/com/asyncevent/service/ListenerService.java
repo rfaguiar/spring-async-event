@@ -1,14 +1,14 @@
-package com.asyncevent;
+package com.asyncevent.service;
 
 import com.asyncevent.event.HelloEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.context.event.EventListener;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;
 
-@Component
+@Service
 public class ListenerService {
 
     private static final Logger LOGGER = LogManager.getLogger(ListenerService.class);
